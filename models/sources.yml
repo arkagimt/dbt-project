@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: employee_source  # This is a logical name for your source
+    database: ARKA_NEW_DB  # Replace with your actual database name
+    schema: PRACTICE  # Replace with your actual schema name
+    tables:
+      - name: employees  # This should match your actual table name
+        identifier: employees    # Physical table name if different from the logical name

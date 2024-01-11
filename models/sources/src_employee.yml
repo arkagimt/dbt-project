@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: employee_source
+    database: DBT_SF_DB
+    schema: SF_DBT_SCHEMA
+    tables:
+      - name: employee
